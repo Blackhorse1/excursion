@@ -1,17 +1,32 @@
 html{
   background-color: black;
 }
+*{
+  font-family: Verdana;
+  text-align:center;
+}
 h1 {
-  font-family:Verdana;
   font-weight:normal;
   font-size:50px;
   color: white;
-  text-align: center;
 }
-h3{
-  font-family: Verdana;
+h3 a{
   font-weight: normal;
   font-size: 16px;
   color: Aquamarine;
-  text-align:center;
+}
+
+.guide h1{
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+.guide h2{
+  font-size: 21px;
+  color: grey;
+}
+footer{
+  color: grey;
+  font-weight:lighter;
+  text-align: right;
 }
